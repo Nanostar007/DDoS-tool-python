@@ -25,8 +25,8 @@ A professional **GUI-based DDoS simulation tool** for **authorized penetration t
 
 ## 📋 Prerequisites
 
-- Python 3.8+
-- `requests` library (`pip install requests`)
+- Python 3.8+$
+- tkinter (for GUI programms)
 
 ## 🚀 Quick Start
 
@@ -35,14 +35,12 @@ A professional **GUI-based DDoS simulation tool** for **authorized penetration t
 git clone https://github.com/yourusername/ddos-pentest-gui.git
 cd ddos-pentest-gui
 
-# Install dependencies
-pip install -r requirements.txt
 
 # Run the GUI
 python ddos_pentest_gui.py
 📊 Usage
 Enter Target: IP/hostname and port (80 default)
-Configure: Threads (50-2000), Duration (10-300s)
+Configure: Threads (50-99999), Duration (1-300s)
 Select Attack: Choose from 6 attack types
 Execute: Click START ATTACK
 Monitor: Real-time logs and status
@@ -50,7 +48,7 @@ Stop: Use STOP ATTACK button anytime
 Attack Types
 
 
-Type	Protocol	Purpose
+# Type	Protocol	Purpose
 1	TCP Flood	SYN flood simulation
 2	UDP Flood	UDP packet storm
 3	HTTP GET	Layer 7 GET flood
@@ -63,14 +61,14 @@ Type	Protocol	Purpose
 
 
 
-✅ Allowed:
+## ✅ Allowed:
 • Owned infrastructure testing
 • Client-authorized pentests
 • Red team engagements with RoE
 • Lab/research environments
 • Security training (isolated networks)
 
-❌ NEVER:
+## ❌ NEVER:
 • Production systems without permission
 • Third-party infrastructure
 • Competitors or rivals
@@ -86,8 +84,7 @@ Issue	Solution
 GUI freezes	Normal during heavy attacks
 No requests library	pip install requests
 Firewall blocks	Test from authorized network
-🔧 Development
-bash
+McAfee flagged this programm so disable any AV before running (it gets flagged because this programm is sending a suspicious ammount of requests)
 
 
 
@@ -109,9 +106,8 @@ Commit changes (git commit -m 'Add amazing feature')
 Push to branch (git push origin feature/amazing-feature)
 Open Pull Request
 🙏 Acknowledgments
-Built for cybersecurity professionals conducting authorized assessments
+Built for cybersecurity professionals conducting authorized assessments and educational purposes in computer science etc.
 Follows OWASP testing guidelines for DoS testing
 GUI powered by tkinter (Python standard library)
 Use Responsibly • Test Ethically • Stay Authorized
 
-Pentest
