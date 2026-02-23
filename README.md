@@ -4,7 +4,7 @@ A professional **GUI-based DDoS simulation tool** for **authorized penetration t
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/yourusername/ddos-pentest-gui/actions)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/Nanostar007/ddos-pentest-gui/actions)
 
 <img width="985" height="778" alt="image" src="https://github.com/user-attachments/assets/af9d386e-4c91-425e-ab6b-ee36ab4c66ae" />
 
