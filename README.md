@@ -32,13 +32,14 @@ A professional **GUI-based DDoS simulation tool** for **authorized penetration t
 
 
 # Clone the repo
-git clone https://github.com/yourusername/ddos-pentest-gui.git
-cd ddos-pentest-gui
+git clone https://github.com/Nanostar007/DDoS-tool-python.git
+cd DDoS-tool-python
 
 
 # Run the GUI
-python ddos_pentest_gui.py
-📊 Usage
+python main.py
+
+# 📊 Usage
 Enter Target: IP/hostname and port (80 default)
 Configure: Threads (50-99999), Duration (1-300s)
 Select Attack: Choose from 6 attack types
@@ -75,7 +76,7 @@ Attack Types
 • Any unauthorized network activity
 Always obtain written authorization before testing.
 
-🐛 Troubleshooting
+# 🐛 Troubleshooting
 
 
 Issue	Solution
@@ -88,24 +89,7 @@ McAfee flagged this programm so disable any AV before running (it gets flagged b
 
 
 
-# Install dev dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-python -m pytest
-
-# Lint code
-flake8 src/
-📄 License
-This project is MIT licensed [blocked]. See the LICENSE [blocked] file for details.
-
-🤝 Contributing
-Fork the project
-Create feature branch (git checkout -b feature/amazing-feature)
-Commit changes (git commit -m 'Add amazing feature')
-Push to branch (git push origin feature/amazing-feature)
-Open Pull Request
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 Built for cybersecurity professionals conducting authorized assessments and educational purposes in computer science etc.
 Follows OWASP testing guidelines for DoS testing
 GUI powered by tkinter (Python standard library)
