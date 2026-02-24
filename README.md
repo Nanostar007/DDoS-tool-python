@@ -1,4 +1,4 @@
-# 🚀 Authorized DDoS Pentest Tool GUI
+## 🐍 Prometheus DDoS Pentest Tool 
 
 A professional **GUI-based DDoS simulation tool** for **authorized penetration testing** and security assessments. This tool helps cybersecurity professionals test target resilience under controlled DDoS conditions.
 
